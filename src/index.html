@@ -8,39 +8,28 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./js/app.js"></script>
   </head>
   <body>
-    <article id="message" class="message">
+    <article class="message">
       <h1>Most Popular Browsers</h1>
-      <article id="message" class="message">
+      <article class="message">
         <h2>Google Chrome</h2>
         <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
       </article>
-      <article id="message" class="message">
+      <article class="message">
         <h2>Google Chrome</h2>
         <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
       </article>
-      <article id="message" class="messager">
+      <article class="messager">
         <h2>Mozilla Firefox</h2>
         <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
       </article>
-      <article id="message" class="message">
+      <article class="message">
         <h2>Microsoft Edge</h2>
         <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
       </article>
     </article>
-    <script>
-      var body = document.getElementById('wrapper');
-var except = document.getElementById('except');
-
-body.addEventListener("click", function () {
-    alert("wrapper");
-}, false);
-except.addEventListener("click", function (ev) {
-    alert("except");
-    ev.stopPropagation(); //this is important! If removed, you'll get both alerts
-}, false);
-    </script>
     <div class="main">
       <div class="message"></div>
       <div class="emoji mb-6">💣🤯💥</div>
