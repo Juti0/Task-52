@@ -29,6 +29,18 @@
         <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
       </article>
     </article>
+    <script>
+      var body = document.getElementById('wrapper');
+var except = document.getElementById('except');
+
+body.addEventListener("click", function () {
+    alert("wrapper");
+}, false);
+except.addEventListener("click", function (ev) {
+    alert("except");
+    ev.stopPropagation(); //this is important! If removed, you'll get both alerts
+}, false);
+    </script>
     <div class="main">
       <div class="message"></div>
       <div class="emoji mb-6">💣🤯💥</div>
