@@ -7,7 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const length=5;
     let count=0;
     for(let i=0;i<length;i++){
-      let dics=document.createElement('div');
       let element=document.createElement('article');
       count+=length;
       element.setAttribute('id','article' + count);
