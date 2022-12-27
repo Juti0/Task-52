@@ -10,28 +10,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <article class="message">
+    <article id="message" class="message">
       <h1>Most Popular Browsers</h1>
-      <article class="message">
+      <article id="message" class="message">
         <h2>Google Chrome</h2>
         <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
       </article>
-      <article class="message">
+      <article id="message" class="message">
         <h2>Google Chrome</h2>
         <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
       </article>
-      <article class="messager">
+      <article id="message" class="messager">
         <h2>Mozilla Firefox</h2>
         <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
       </article>
-      <article class="message">
+      <article id="message" class="message">
         <h2>Microsoft Edge</h2>
         <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
       </article>
     </article>
     <script>
-      var body = document.getElementsByClassName('wrapper');
-var except = document.getElementsByClassName('except');
+      var body = document.getElementById('wrapper');
+var except = document.getElementById('except');
 
 body.addEventListener("click", function () {
     alert("wrapper");
