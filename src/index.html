@@ -8,46 +8,9 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./js/app.js"></script>
   </head>
   <body>
-    <div>
-    <article class="message">
-      <h1>Most Popular Browsers</h1>
-      <article class="message">
-        <h2>Google Chrome</h2>
-        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-      </article>
-      <article class="message">
-        <h2>Google Chrome</h2>
-        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-      </article>
-      <article class="messager">
-        <h2>Mozilla Firefox</h2>
-        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
-      </article>
-      <article class="message">
-        <h2>Microsoft Edge</h2>
-        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
-      </article>
-    </article>
-    <script>window.addEventListener("DOMContentLoaded", () => {
-      // This block will be executed once the page is loaded and ready
-    
-      document.body.addEventListener("click",() =>{
-        const length=5;
-        let count=0;
-        for(let i=0;i<length;i++){
-          let element=document.createElement('article');
-          count+=length;
-          element.setAttribute('id','article' + count);
-          document.body.appendChild(element);
-          let text='sampleText';
-          document.getElementById('article'+count).innerHTML=text;
-          document.getElementById('article'+count).classList.add('message');
-        }
-      });
-    });</script>
-    </div>
     <div class="main">
       <div class="message"></div>
       <div class="emoji mb-6">💣🤯💥</div>
